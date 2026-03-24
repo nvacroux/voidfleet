@@ -1,0 +1,21 @@
+# Godot 4 .NET .gitignore
+
+# Godot project files
+.godot/
+*.tmp
+*.remap
+*.import
+export.cfg
+export_presets.cfg
+
+# C# build output
+.mono/
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# OS files
+Thumbs.db
+.DS_Store
